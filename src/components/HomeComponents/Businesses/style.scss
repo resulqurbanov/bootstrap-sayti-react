@@ -1,0 +1,204 @@
+.esas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color:#212529;
+    .orta{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        img{
+            box-sizing: border-box;
+            max-width: 500px;
+            max-height: 300px;
+        }
+        .businesses{
+       
+            h2{
+                color: white;
+                width: 550px;
+                font-size: 50px;
+            }
+            p{
+                color: white;
+                width: 550px;
+                font-size: 18px;
+            }
+            .btn1{
+                width: 150px;
+                height: 50px;
+          margin-right: 35px;
+                cursor: pointer;
+                border-radius: 5px;
+                color: white;
+                background-color: #0d6efd;
+                border-color: #0d6efd;
+
+                &:hover{
+                    background-color: #0d5ed7;
+                }
+            }
+            .btn2{
+                width: 150px;
+                height: 50px;
+                cursor: pointer;
+                border-radius: 5px;
+                color: white;
+                background-color: #212529;
+                border-color: white;
+                &:hover{
+                    background-color: white;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .esas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color:#212529;
+    .orta{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        img{
+            display: none;
+            box-sizing: border-box;
+            max-width: 500px;
+            max-height: 300px;
+        }
+        .businesses{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+            h2{
+                color: white;
+                width: 500px;
+                text-align: center;
+                font-size: 50px;
+            }
+            p{
+                color: white;
+                width: 400px;
+                font-size: 18px;
+                text-align: center;
+            }
+            .btn1{
+                width: 150px;
+                height: 50px;
+          margin-right: 35px;
+                cursor: pointer;
+                border-radius: 5px;
+                color: white;
+                background-color: #0d6efd;
+                border-color: #0d6efd;
+
+                &:hover{
+                    background-color: #0d5ed7;
+                }
+            }
+            .btn2{
+                width: 150px;
+                height: 50px;
+                cursor: pointer;
+                border-radius: 5px;
+                color: white;
+                background-color: #212529;
+                border-color: white;
+                &:hover{
+                    background-color: white;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+}
+@media only screen and (max-width: 500px) {
+        .esas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color:#212529;
+    .orta{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        img{
+            display: none;
+            box-sizing: border-box;
+            max-width: 500px;
+            max-height: 300px;
+        }
+        .businesses{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+            h2{
+                color: white;
+                width: 300px;
+                text-align: center;
+                font-size: 30px;
+            }
+            p{
+                color: white;
+                width: 300px;
+                font-size: 18px;
+                text-align: center;
+            }
+            .btns{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                 .btn1{
+                width: 200px;
+                height: 50px;
+                cursor: pointer;
+                border-radius: 5px;
+                color: white;
+                background-color: #0d6efd;
+                border-color: #0d6efd;
+
+                &:hover{
+                    background-color: #0d5ed7;
+                }
+            }
+            .btn2{
+                width: 200px;
+                height: 50px;
+                margin-top: 10px;
+                cursor: pointer;
+                border-radius: 5px;
+                color: white;
+                background-color: #212529;
+                border-color: white;
+                &:hover{
+                    background-color: white;
+                    color: black;
+                }
+            }
+           
+            }
+        }
+    }
+}
+}
+
