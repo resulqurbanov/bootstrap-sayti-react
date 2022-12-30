@@ -1,24 +1,12 @@
 import React from 'react'
-import Navbar from '../../components/Navbar'
-import Businesses from '../../components/HomeComponents/Businesses'
-import Featured  from '../../components/HomeComponents/Featured'
-import Working  from '../../components/HomeComponents/Working'
-import Blog from '../../components/HomeComponents/Blog'
-import Products from '../../components/HomeComponents/Products'
-import Footer from '../../components/Footer'
+import HomeComponents from '../../components/HomeComponents'
 
 function Home() {
   return (
     <>
-<Navbar/>
-<Businesses/>
-<Featured />
-<Working />
-<Blog/>
-<Products/>
-<Footer/>
+    <HomeComponents/>
     </>
   )
 }
 
-export default Home
+export default Home;
